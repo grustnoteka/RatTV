@@ -1,0 +1,887 @@
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  cursor: default;
+}
+
+html {
+width: 100%;
+overflow-x: hidden;
+background-color: white;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  background: white;
+  overflow: hidden;
+}
+
+.sootnosheniye {
+  position: relative;
+  padding-bottom: 62.5%;
+  background: white;
+}
+
+.content {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0; padding: 0;
+  background: white;
+}
+.q {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.w {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-top: -62.5%;
+  left: 0.1%;
+  pointer-events: none;
+  background-size: cover;
+}
+.e {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: -62.5%;
+  left: 99.4%;
+  pointer-events: none;
+  background-size: cover;
+}
+.r {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  margin-top: -62.75%;
+    pointer-events: none;
+    background-size: cover;
+}
+.t {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: -0.9%;
+  pointer-events: none;
+  background-size: cover;
+}
+.y1 {
+    position: relative;
+    margin-top: -50%;
+  }
+.y {
+  position: relative;
+  width: 100%;
+
+  margin-top: -61.9%;
+  left: 76.2%;
+  pointer-events: none;
+  background-size: cover;
+}
+.u {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: -124%;
+  left: 75.6%;
+  pointer-events: none;
+  background-size: cover;
+}
+.i {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: -58.9%;
+  left: 75.6%;
+  pointer-events: none;
+  background-size: cover;
+}
+.o {
+  position: relative;
+  width: 23.2%;
+  margin-top: -58.2%;
+  left: 76.2%;
+  pointer-events: none;
+  background-size: cover;
+}
+.p1 {
+    position: relative;
+    margin-top: -10.3%;
+  }
+.p {
+  position: relative;
+  width: 16%;
+
+
+  margin-top: -63.1%;
+  margin-left: 80%;
+  pointer-events: none;
+  background-size: cover;
+}
+.a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  margin-top: -28.45%;
+  left: 75.6%;
+    pointer-events: none;
+    background-size: cover;
+}
+/* .s {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  top: -1038.7%;
+  left: 76.2%;
+} */
+#qvadrat1 {
+position: relative;
+width: 23.2%;
+height: 37.5%;
+top: -38.8%;
+left: 76.2%;
+background: #3F3F3F;
+box-sizing: border-box;
+}
+
+.d1 {
+    position: relative;
+    margin-top: -46%;
+  }
+.d {
+  position: relative;
+  width: 20%;
+
+  top: -73.6%;
+  left: 77.8%;
+  pointer-events: none;
+  background-size: cover;
+}
+.g1 {
+  position: relative;
+  margin-top: -3.3%;
+}
+.g {
+  position: relative;
+  width: 16%;
+  margin-top: -47.5%;
+  margin-left: 79.9%;
+  pointer-events: none;
+  background-size: cover;
+}
+.h {
+  position: relative;
+  margin-top: -16.7%;
+}
+.arrow_left {
+  position: relative;
+  width: 7%;
+
+  margin-top: -69%;
+  margin-left: 78.5%;
+  cursor: pointer;
+  pointer-events: none;
+  background-size: cover;
+}
+.j1 {
+  position: relative;
+  margin-top: -1.1%;
+}
+.j {
+  position: relative;
+  width: 7%;
+
+
+  margin-top: -62.5%;
+  margin-left: 89.7%;
+  cursor: pointer;
+  pointer-events: none;
+  background-size: cover;
+}
+.k {
+  position: relative;
+  margin-top: -7%;
+}
+
+.onoff {
+  position: relative;
+  width: 7%;
+
+  margin-top: -68.5%;
+  margin-left: 84.2%;
+  cursor: pointer;
+  background-size: cover;
+}
+.onoff{
+  z-index: 999999 !important;
+  cursor: pointer;
+
+}
+.l {
+    position: relative;
+    margin-top: 13.5%;
+  }
+.richag{
+  z-index: 999999 !important;
+  cursor: pointer;
+  position: absolute;
+  transition: all 1s linear;
+}
+.richag.transform {
+  transform: rotate(90deg);
+}
+.richag {
+  position: relative;
+  width: 14.9%;
+
+  margin-top: -43.4%;
+  margin-left: 80.45%;
+  cursor: pointer;
+  background-size: cover;
+}
+
+
+#qvadrat3 {
+position: relative;
+width: 68%;
+height: 86%;
+margin-top: -62.9%;
+left: 4.2%;
+background: #85D5F6;
+box-sizing: border-box;
+border-radius: 180px;
+animation: colorchange 30s linear 1s infinite;
+}
+@keyframes colorchange
+   {
+     0%   {background: #85D5F6; color: #00B5FF;}
+     50%  {background: #0081B6; color: #55A4C5;}
+     100% {background: #85D5F6; color: #00B5FF;}
+  }
+  #qvadrat4 {
+  position: relative;
+  width: 64.5%;
+  height: 8%;
+  margin-top: -0.3%;
+  left: 5.8%;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 20px;
+  }
+
+
+  .marquee{
+position: relative;
+width:66%;
+height: 100%;
+margin-top: -4.1%;
+left: 5%;
+white-space:nowrap;
+overflow:hidden;
+}
+
+.marquee span {
+color:#212121;
+font-size:40px;
+font-family: Roboto;
+display:inline-block;
+padding-left:100%;
+animation: marquee 25s infinite linear;
+}
+
+@keyframes marquee{
+0%{transform: translate(0, 0);}
+100%{transform: translate(-100%, 0)}
+}
+.z1 {
+    position: relative;
+    margin-top: -6%;
+  }
+.z {
+  position: relative;
+  width: 22%;
+
+  margin-top: -34%;
+  left: 42.2%;
+  background-size: cover;
+}
+.x {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: -112%;
+  left: 63.2%;
+  font-size: 72px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+  opacity: 50%;
+  background-size: cover;
+}
+
+/* #circle {
+  position: relative;
+    width: 9.5%;
+    height: 15%;
+    background: #C70100;
+    border-radius: 90px;
+    top:-2320%;
+    left: 10%;
+}
+#circle:hover {
+  opacity: 0%;
+} */
+#gradient
+{
+  position: relative;
+  width: 68%;
+  height: 86%;
+  margin-top: -58%;
+  left: 4.2%;
+  background-color: #000000;
+  box-sizing: border-box;
+  border-radius: 170px;
+}
+.c1 {
+    position: relative;
+    margin-top: -21%;
+  }
+.c {
+  position: relative;
+  width: 11%;
+
+    margin-top: -40%;
+  left: 32.7%;
+  background-size: cover;
+}
+.v1 {
+    position: relative;
+    margin-top: -1.1%;
+  }
+.v {
+  position: relative;
+  width: 11%;
+
+  margin-top: -62.55%;
+  left: 9.7%;
+  background-size: cover;
+}
+.b1 {
+    position: relative;
+    margin-top: -1.1%;
+  }
+.b {
+  position: relative;
+  width: 11%;
+
+  margin-top: -62.5%;
+  left: 55.5%;
+  background-size: cover;
+}
+.n1 {
+    position: relative;
+    margin-top: 4%;
+  }
+.n {
+  position: relative;
+  width: 5.5%;
+
+
+  margin-top: -55%;
+  left: 23.7%;
+  background-size: cover;
+}
+.m1 {
+    position: relative;
+    margin-top: -0.8%;
+  }
+.m {
+  position: relative;
+  width: 5.5%;
+
+    margin-top: -62.5%;
+  left: 46.5%;
+  background-size: cover;
+  transform:scale(-1,1);
+
+}
+.qw1 {
+    position: relative;
+    margin-top: -31.5%;
+  }
+.qw {
+  position: relative;
+  width: 3.5%;
+
+    margin-top: -78%;
+  left: 63.2%;
+  pointer-events: none;
+  background-size: cover;
+}
+#qvadrat5 {
+position: relative;
+width: 40%;
+height: 8%;
+  margin-top: 35.5%;
+left: 18.2%;
+background: white;
+box-sizing: border-box;
+border-radius: 50px;
+}
+
+.qe {
+  width: 100%;
+  height: 100%;
+  position: relative;
+    margin-top: -6.5%;
+  left: 26.2%;
+  font-size: 42px;
+  font-family: Roboto;
+}
+.qr1 {
+    position: relative;
+    margin-top: -60%;
+  }
+.qr {
+  position: relative;
+  width: 5%;
+
+  margin-top: -63%;
+  left: 49.9%;
+  background-size: cover;
+}
+.qt1 {
+    position: relative;
+    margin-top: -0.5%;
+  }
+.qt {
+  position: relative;
+  width: 12%;
+  margin-top: -67%;
+  left: 13.2%;
+  background-size: cover;
+}
+
+.kanali {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+.perviykanal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+.vtoroykanal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+.nadpis {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.ypravlenie {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: -25.5%;
+
+}
+.zvyk {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.palochki {
+position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.f {
+position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.blackekran {
+position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.tretiykanal {
+position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.chetvertiykanal {
+position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.pyatiykanal {
+position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+.qy {
+  position: relative;
+  width: 69%;
+  height: 91%;
+background-size: cover;
+  margin-top: -64%;
+  left: 3%;
+    background-size: cover;
+  animation-name: headerLane;
+animation-duration: 1.5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: steps(1, end);
+}
+@keyframes headerLane {
+    0% {
+        background-image: url(../images/60.svg);
+    }
+    16.6666667% {
+        background-image: url(../images/61.svg);
+    }
+    33.3333333% {
+        background-image: url(../images/62.svg);
+    }
+    50% {
+        background-image: url(../images/63.svg);
+    }
+    66.6666667% {
+        background-image: url(../images/64.svg);
+    }
+    83.3333333% {
+        background-image: url(../images/65.svg);
+    }
+    100% {
+        background-image: url(../images/65.svg);
+    }
+}
+
+#qvadrat2
+{
+  position: relative;
+  width: 68%;
+  height: 86%;
+  margin-top: -63%;
+  left: 4.2%;
+  background-color: #000000;
+  box-sizing: border-box;
+  border-radius: 160px;
+}
+
+#qvadrat6 {
+position: relative;
+width: 68%;
+height: 86%;
+margin-top: -62.9%;
+left: 4.2%;
+background: #85D5F6;
+box-sizing: border-box;
+border-radius: 180px;
+}
+#qvadrat7 {
+position: relative;
+width: 68%;
+height: 30.1%;
+margin-top: -19%;
+left: 4.1%;
+background: #1BC300;
+box-sizing: border-box;
+border-radius: 66px;
+}
+#qvadrat8 {
+position: relative;
+width: 64.5%;
+height: 8%;
+margin-top: -52.9%;
+left: 6%;
+background: white;
+box-sizing: border-box;
+border-radius: 10px;
+}
+.marquee2{
+position: relative;
+width:66%;
+height: 100%;
+margin-top: -4%;
+left: 5%;
+white-space:nowrap;
+overflow:hidden;
+}
+
+.marquee2 span {
+color:#212121;
+font-size:40px;
+font-family: Roboto;
+display:inline-block;
+padding-left:100%;
+animation: marqueee 25s infinite linear;
+}
+
+@keyframes marqueee{
+0%{transform: translate(0, 0);}
+100%{transform: translate(-100%, 0)}
+}
+
+.wq {
+  position: relative;
+  width: 50%;
+  height: 30%;
+background-size: cover;
+  margin-top: -55%;
+  left: 12%;
+  animation: animate_reduce 2s infinite;
+}
+@keyframes animate_reduce {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+	100% {
+		transform: scale3d(0.7, 0.7, 0.7);
+	}
+}
+.ww1 {
+    position: relative;
+    margin-top: -1%;
+  }
+.ww {
+  position: relative;
+  width: 33%;
+  background-size: cover;
+  margin-top: -69%;
+  left: 22.3%;
+}
+.we1 {
+    position: relative;
+    margin-top: 0.3%;
+  }
+.we {
+  position: relative;
+  width: 53%;
+background-size: cover;
+  margin-top: 6.5%;
+  left: 12%;
+}
+.wr {
+  position: relative;
+  width: 33%;
+  height: 33.5%;
+background-size: cover;
+  margin-top: -27.8%;
+  left: 22.3%;
+  animation-name: headerLane8;
+animation-duration: 1.5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: steps(1, end);
+}
+@keyframes headerLane8 {
+    0% {
+        background-image: url(../images/51.svg);
+    }
+    50% {
+        background-image: url(../images/52.svg);
+    }
+    100% {
+        background-image: url(../images/51.svg);
+    }
+}
+#qvadrat9 {
+position: relative;
+width: 68%;
+height: 86%;
+margin-top: -62.9%;
+left: 4.2%;
+background: #FE7BBF;
+box-sizing: border-box;
+border-radius: 180px;
+}
+
+#qvadrat10 {
+position: relative;
+width: 68%;
+height: 35%;
+margin-top: -21.6%;
+left: 4.15%;
+background: #01699E;
+box-sizing: border-box;
+border-radius: 75.2px;
+}
+.ew1 {
+    position: relative;
+    margin-top: -16%;
+  }
+.ew {
+  position: relative;
+  width: 35%;
+background-size: cover;
+  margin-top: -33%;
+  left: 22%;
+}
+.ee1 {
+    position: relative;
+    margin-top: -2.4%;
+  }
+.ee {
+  position: relative;
+  width: 15%;
+  margin-top: -62.7%;
+  left: 29%;
+  background-size: cover;
+}
+.et1 {
+    position: relative;
+    margin-top: 8%;
+  }
+.et {
+  position: relative;
+  width: 11%;
+  margin-top: -64%;
+  left: 8%;
+  background-size: cover;
+  animation-name: slideRight;
+   animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+
+  animation-iteration-count: infinite;
+
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(1%);
+    }
+
+    100% {
+        transform: translateX(50%);
+    }
+}
+.ey1 {
+    position: relative;
+    margin-top: -5%;
+  }
+.ey {
+  position: relative;
+  width: 11%;
+  margin-top: -70%;
+  left: 55.5%;
+  background-size: cover;
+}
+.eu {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: -40%;
+  left: 62.8%;
+  font-size: 45px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+  opacity: 50%;
+}
+.ei1 {
+    position: relative;
+    margin-top: -18%;
+  }
+.ei {
+  position: relative;
+  width: 7%;
+  margin-top: -28%;
+  left: 45.5%;
+  background-size: cover;
+  animation-name: slideLeft;
+   animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+
+  animation-iteration-count: infinite;
+
+}
+@keyframes slideLeft {
+    0% {
+        transform: translateX(1%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+#qvadrat11 {
+position: relative;
+width: 4%;
+height: 4%;
+margin-top: -25.4%;
+left: 31%;
+background: #323232;
+box-sizing: border-box;
+animation-name: slideDown;
+ animation-duration: 3s;
+animation-timing-function: ease-in-out;
+
+animation-iteration-count: infinite;
+
+}
+@keyframes slideDown {
+    0% {
+        transform: translateY(-1%);
+    }
+    50% {
+        transform: translateY(45%);
+    }
+    100% {
+        transform: translateY(-1%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.f2 {
+    position: relative;
+    margin-top: -7.55%;
+  }
+
+.f1 {
+  position: relative;
+  width: 72%;
+
+  margin-top: -65%;
+  left: 2.3%;
+}
